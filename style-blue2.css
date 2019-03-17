@@ -55,8 +55,9 @@ table tbody tr th{
 table tbody tr td {
     border-bottom-right-radius :10px;
     border-bottom-left-radius :10px;
-    line-height: 1.8rem;
+    line-height: 1.9rem;
     font-size : 1.6rem;
+    
 }
 
 td {
@@ -68,6 +69,11 @@ td {
 th{
     font-weight:normal;
     color: rgb(255, 255, 255);
+}
+footer p{
+    text-align: center;
+    color: black;
+    font-size: 1.25rem;
 }
 
 .item {    

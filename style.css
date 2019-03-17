@@ -66,6 +66,11 @@ td {
     
     color: rgb(0, 0, 0);
 }
+th{
+    font-weight:normal;
+    color: rgb(0, 0, 0);
+}
+
 
 .item {    
     margin-top: 0.5em;
