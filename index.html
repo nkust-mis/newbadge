@@ -21,16 +21,13 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     <script language="JavaScript">
-            function myrefresh()
-            {
-                
+        function refresh() {
             window.location.reload();
-            }
-            setTimeout('myrefresh()',60000);
-            </script>
+        }
+        setTimeout('refresh()', 60000);
+    </script>
     <script>
         $(function () {
-
             $('.masonry').masonry({
                 itemSelector: '.item'
             });
@@ -38,7 +35,7 @@
     </script>
 </head>
 
-<body onload="load()">
+<body>
     <div class="container ">
         <div class="row masonry">
             <div class="col-md-3 col-sm-4 col-1 item">
