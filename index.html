@@ -16,12 +16,21 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,500&amp;subset=chinese-traditional,japanese"
         rel="stylesheet">
-    <link rel="stylesheet" href="style-blue2.css">    
+    <link rel="stylesheet" href="style-blue2.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script language="JavaScript">
+            function myrefresh()
+            {
+                
+            window.location.reload();
+            }
+            setTimeout('myrefresh()',60000);
+            </script>
     <script>
         $(function () {
+
             $('.masonry').masonry({
                 itemSelector: '.item'
             });
@@ -29,7 +38,7 @@
     </script>
 </head>
 
-<body onload="opener.location.reload()">    
+<body onload="load()">
     <div class="container ">
         <div class="row masonry">
             <div class="col-md-3 col-sm-4 col-1 item">
