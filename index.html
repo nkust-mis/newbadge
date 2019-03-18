@@ -16,10 +16,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC:400,500&amp;subset=chinese-traditional,japanese"
         rel="stylesheet">
-    <link rel="stylesheet" href="style-blue2.css">
+    <link rel="stylesheet" href="./css/style-blue2.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <link href="css/lightbox.css" rel="stylesheet" />
+
     <script language="JavaScript">
         function refresh() {
             window.location.reload();
@@ -32,6 +35,18 @@
                 itemSelector: '.item'
             });
         });
+    </script>
+    <script>
+        lightbox.option({
+            'fadeDuration': 300,
+            'disableScrolling': false,
+            'imageFadeDuration': 250,
+            'albumLabel': "第%1張  共%2",
+            'fitImagesInViewport': true,
+            'resizeDuration': 200,
+            'wrapAround': true,
+            'alwaysShowNavOnTouchDevices': true
+        })
     </script>
 </head>
 
@@ -49,7 +64,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="./img/mislogo.jpg"><img src="./img/mislogo.jpg" alt="" class="img-responsive"></a>
+                                <a href="./img/mislogo.jpg" data-lightbox="roadtrip" data-title="舊系徽圖片"><img src="./img/mislogo.jpg"
+                                        class="img-responsive"></a>
                             </td>
                         </tr>
                     </thead>
@@ -78,7 +94,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="./img/mislogo.jpg"><img src="./img/mislogo.jpg" alt="" class="img-responsive"></a>
+                                <a href="./img/mislogo.jpg" data-lightbox="roadtrip" data-title="舊系徽圖片"><img src="./img/mislogo.jpg"
+                                        alt="" class="img-responsive"></a>
                             </td>
                         </tr>
                     </thead>
@@ -107,7 +124,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="./img/mislogo.jpg"><img src="./img/mislogo.jpg" alt="" class="img-responsive"></a>
+                                <a href="./img/mislogo.jpg" data-lightbox="roadtrip" data-title="舊系徽圖片"><img src="./img/mislogo.jpg"
+                                        alt="" class="img-responsive"></a>
                             </td>
                         </tr>
                     </thead>
@@ -136,7 +154,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="./img/mislogo.jpg"><img src="./img/mislogo.jpg" alt="" class="img-responsive"></a>
+                                <a href="./img/mislogo.jpg" data-lightbox="roadtrip" data-title="舊系徽圖片"><img src="./img/mislogo.jpg"
+                                        alt="" class="img-responsive"></a>
                             </td>
                         </tr>
                     </thead>
@@ -165,7 +184,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="./img/mislogo.jpg"><img src="./img/mislogo.jpg" alt="" class="img-responsive"></a>
+                                <a href="./img/mislogo.jpg" data-lightbox="roadtrip" data-title="舊系徽圖片"><img src="./img/mislogo.jpg"
+                                        alt="" class="img-responsive"></a>
                             </td>
                         </tr>
                     </thead>
@@ -194,7 +214,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="./img/mislogo.jpg"><img src="./img/mislogo.jpg" alt="" class="img-responsive"></a>
+                                <a href="./img/mislogo.jpg" data-lightbox="roadtrip" data-title="舊系徽圖片"><img src="./img/mislogo.jpg"
+                                        alt="" class="img-responsive"></a>
                             </td>
                         </tr>
                     </thead>
@@ -223,7 +244,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="./img/mislogo.jpg"><img src="./img/mislogo.jpg" alt="" class="img-responsive"></a>
+                                <a href="./img/mislogo.jpg" data-lightbox="roadtrip" data-title="舊系徽圖片"><img src="./img/mislogo.jpg"
+                                        alt="" class="img-responsive"></a>
                             </td>
                         </tr>
                     </thead>
@@ -252,7 +274,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="./img/mislogo.jpg"><img src="./img/mislogo.jpg" alt="" class="img-responsive"></a>
+                                <a href="./img/mislogo.jpg" data-lightbox="roadtrip" data-title="舊系徽圖片"><img src="./img/mislogo.jpg"
+                                        alt="" class="img-responsive"></a>
                             </td>
                         </tr>
                     </thead>
@@ -281,7 +304,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="./img/mislogo.jpg"><img src="./img/mislogo.jpg" alt="" class="img-responsive"></a>
+                                <a href="./img/mislogo.jpg" data-lightbox="roadtrip" data-title="舊系徽圖片"><img src="./img/mislogo.jpg"
+                                        alt="" class="img-responsive"></a>
                             </td>
                         </tr>
                     </thead>
@@ -310,7 +334,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="./img/mislogo.jpg"><img src="./img/mislogo.jpg" alt="" class="img-responsive"></a>
+                                <a href="./img/mislogo.jpg" data-lightbox="roadtrip" data-title="舊系徽圖片"><img src="./img/mislogo.jpg"
+                                        alt="" class="img-responsive"></a>
                             </td>
                         </tr>
                     </thead>
@@ -339,7 +364,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="./img/mislogo.jpg"><img src="./img/mislogo.jpg" alt="" class="img-responsive"></a>
+                                <a href="./img/mislogo.jpg" data-lightbox="roadtrip" data-title="舊系徽圖片"><img src="./img/mislogo.jpg"
+                                        alt="" class="img-responsive"></a>
                             </td>
                         </tr>
                     </thead>
@@ -368,7 +394,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="./img/mislogo.jpg"><img src="./img/mislogo.jpg" alt="" class="img-responsive"></a>
+                                <a href="./img/mislogo.jpg" data-lightbox="roadtrip" data-title="舊系徽圖片"><img src="./img/mislogo.jpg"
+                                        alt="" class="img-responsive"></a>
                             </td>
                         </tr>
                     </thead>
@@ -397,7 +424,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <a href="./img/mislogo.jpg"><img src="./img/mislogo.jpg" alt="" class="img-responsive"></a>
+                                <a href="./img/mislogo.jpg" data-lightbox="roadtrip" data-title="舊系徽圖片"><img src="./img/mislogo.jpg"
+                                        alt="" class="img-responsive"></a>
                             </td>
                         </tr>
                     </thead>
