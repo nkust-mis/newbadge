@@ -20,8 +20,10 @@
     <link rel="stylesheet" href="./css/style-blue2.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.js"></script>
     <script src="js/lightbox.min.js"></script>
     <link href="css/lightbox.css" rel="stylesheet" />
+    <!--
     <script>
         window.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", function () {
             if (window.orientation === 90 || window.orientation === -90) {
@@ -30,6 +32,7 @@
             }
         }, false);
     </script>
+    -->
     <script language="JavaScript">
         function refresh() {
             window.location.reload();
@@ -37,12 +40,13 @@
         }
         setTimeout('refresh()', 120000);
     </script>
-    <script>
-        $(function () {
-            $('.masonry').masonry({
-                itemSelector: '.item'
+    <script language="JavaScript">
+        $('#container').imagesLoaded(),
+            $(function () {
+                $('.masonry').masonry({
+                    itemSelector: '.item'
+                });
             });
-        });
     </script>
     <script>
         lightbox.option({
@@ -62,7 +66,7 @@
 
     <div class="container ">
         <div class="row masonry">
-            <div class="col-md-3 col-sm-4 col-12 item">
+            <div class="col-lg-3 col-md-3 col-sm-4   item">
                 <table>
                     <thead>
                         <tr>
@@ -93,7 +97,7 @@
                     </tbody>
                 </table>
             </div>
-            <div class="col-md-3 col-sm-4 col-12 item">
+            <div class="col-lg-3 col-md-3 col-sm-4  item">
                 <table>
                     <thead>
                         <tr>
@@ -124,7 +128,7 @@
                     </tbody>
                 </table>
             </div>
-            <div class="col-md-3 col-sm-4 col-12 item">
+            <div class="col-lg-3 col-md-3 col-sm-4  item">
                 <table>
                     <thead>
                         <tr>
@@ -155,7 +159,7 @@
                     </tbody>
                 </table>
             </div>
-            <div class="col-md-3 col-sm-4 col-12 item">
+            <div class="col-lg-3 col-md-3 col-sm-4  item">
                 <table>
                     <thead>
                         <tr>
@@ -180,14 +184,14 @@
                         <tr>
                             <td>
                                 <p>最底部的白線路代表傳統商業，延伸而出的藍路線，便是加上智慧科技後，跳脫以往商業模式開創的新路。
-                                    整體以藍色調與數據方塊充滿科技感，加上智慧商務系縮寫IC拼成鑰匙形狀，象徵本系將成為首開結合科技與商務的一把鑰匙。                                    
+                                    整體以藍色調與數據方塊充滿科技感，加上智慧商務系縮寫IC拼成鑰匙形狀，象徵本系將成為首開結合科技與商務的一把鑰匙。
                                 </p>
                             </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <div class="col-md-3 col-sm-4 col-12 item">
+            <div class="col-lg-3 col-md-3 col-sm-4  item">
                 <table>
                     <thead>
                         <tr>
@@ -218,8 +222,7 @@
                     </tbody>
                 </table>
             </div>
-
-            <div class="col-md-3 col-sm-4 col-12 item">
+            <div class="col-lg-3 col-md-3 col-sm-4  item">
                 <table>
                     <thead>
                         <tr>
@@ -244,14 +247,14 @@
                         <tr>
                             <td>
                                 <p>
-                                    在這個e畫普及的世代，智慧商務與我們的生活密不可分，即使不用出門也可以採購商品，此Logo設計更是表達了這項概念，為了更加深刻的表達，特別刻劃地球與外界的接觸，一顆一顆的粒子不停的連結與傳輸，真真切切的表達了無遠弗屆的理念。                                    
+                                    在這個e畫普及的世代，智慧商務與我們的生活密不可分，即使不用出門也可以採購商品，此Logo設計更是表達了這項概念，為了更加深刻的表達，特別刻劃地球與外界的接觸，一顆一顆的粒子不停的連結與傳輸，真真切切的表達了無遠弗屆的理念。
                                 </p>
                             </td>
                         </tr>
                     </tbody>
                 </table>
             </div>
-            <div class="col-md-3 col-sm-4 col-12 item">
+            <div class="col-lg-3 col-md-3 col-sm-4  item">
                 <table>
                     <thead>
                         <tr>
@@ -283,7 +286,6 @@
                     </tbody>
                 </table>
             </div>
-
         </div>
     </div>
 
